@@ -1,33 +1,26 @@
-
 /**
- * Write a description of class Shark here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+ * 
+ * The Shark class describes a shark.
+ * 
+ * Every shark has a region where it lives, its favorite prey,
+ * a color, and an age.
+ * 
+ * Just like every shark in the ocean is an individual animal,
+ * when you create objects of the Shark class, each object
+ * will be a different Shark.  
+ * The class definition specifies what attributes you can expect
+ * every shark to have.
+ * 
+ */ 
+
 public class Shark
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Shark
-     */
-    public Shark()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    // Attributes
+    
+    
+    // Methods will go here
+    
+    // Since this class does not have a main method,
+    // nothing will happen when you run it.
+    
 }
