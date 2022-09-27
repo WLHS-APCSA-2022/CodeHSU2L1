@@ -13,6 +13,9 @@
 public class Rectangle
 {
     
+    //instance variables - the attributes of the class Rectangle
+    private double width;
+    private double height;
     
     // Other parts of the class will go here
     
@@ -20,3 +23,10 @@ public class Rectangle
     // nothing will happen when you run it.
 
 }
+
+
+
+
+
+
+

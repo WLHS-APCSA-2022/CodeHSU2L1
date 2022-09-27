@@ -13,7 +13,15 @@ public class GrilledCheese
 {
     
     // Attributes of all Grilled Cheese objects
-    
+    private String cheese;
+    private int temperature;
+    private double volume;
+    private boolean isBurned;
+    private boolean grilled;
+    private String breadType;
+    private boolean hasBread;
+    private int numSlicesCheese;
+    private int numSlicesBread;
     
     // The methods of the class will go here
  
