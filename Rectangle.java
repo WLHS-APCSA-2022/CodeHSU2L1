@@ -17,7 +17,26 @@ public class Rectangle
     private double width;
     private double height;
     
-    // Other parts of the class will go here
+    //this is called the constructor
+    public Rectangle(double rectWidth, double rectHeight){
+        width = rectWidth;
+        height = rectHeight;
+    }
+    
+    //the are called accessors or getters
+    public double getHeight(){
+        return height;
+    }
+    
+    public double getWidth(){
+        return width;
+    }
+    
+    //this is an example of a method
+    public double getArea(){
+        return width * height;
+    }
+
     
     // Since this class does not have a main method,
     // nothing will happen when you run it.
